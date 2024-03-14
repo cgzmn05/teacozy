@@ -36,7 +36,7 @@ main {
 }
 
 .container {
-  background-image: url("/Images/img-mission-background.jpg");
+  background-image: url("Images/img-mission-background.jpg");
   background-position: center center;
   margin: auto;
   height: 700px;
@@ -89,7 +89,7 @@ main {
 }
 
 #third {
-  background-image: url("/Images/img-locations-background.jpg");
+  background-image: url("Images/img-locations-background.jpg");
   background-position: center;
   height: 500px;
   margin: auto;
