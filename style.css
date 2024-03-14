@@ -36,7 +36,7 @@ main {
 }
 
 .container {
-  background-image: url("Images/img-mission-background.jpg");
+  background-image: url("./Images/img-mission-background.jpg");
   background-position: center center;
   margin: auto;
   height: 700px;
