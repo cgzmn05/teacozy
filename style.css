@@ -1,0 +1,145 @@
+* {
+  font-family: Helvetica;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+}
+
+nav a{
+  text-decoration: underline;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+
+#logo {
+  height: 50px;
+  padding: 0px 0px 0px 10px;
+}
+
+main {
+  padding-top: 70px;
+}
+
+.container {
+  background-image: url("/Design/Images/img-mission-background.jpg");
+  background-position: center center;
+  margin: auto;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+}
+
+.text-box h2,h4 {
+  padding: 10px 0px 10px 0px;
+}
+
+#second {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.tea-selection{
+  position: relative;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  flex-basis: 300px;
+}
+
+.monthly img {
+  padding: 10px 10px 0px 10px;
+}
+
+.monthly figcaption {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.monthly img {
+  width: 300px;
+  height: 200px;
+  padding-top: 10px;
+}
+
+#third {
+  background-image: url("/Design/Images/img-locations-background.jpg");
+  background-position: center;
+  height: 500px;
+  margin: auto;
+  width: 1200px;
+  background-repeat: no-repeat;
+}
+
+#third #location-title, #stores {
+  background-color: transparent;
+}
+
+#location-title h2 {
+  background-color: transparent;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 70px;
+}
+
+.location {
+  width: 300px;
+  margin: 5px 20px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 280px;
+  padding: 20px 0px 20px 0px;
+}
+
+.location h3, p {
+  padding-bottom: 30px;
+}
+
+#stores {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+#fourth{
+  height: 200px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.contact {
+  line-height: 50px;
+}
+
+footer {
+  padding-left: 20px;
+}
